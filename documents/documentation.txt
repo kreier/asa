@@ -1,0 +1,7 @@
+Here I found some details to the motor shield:
+
+http://rc.mired.org/2017/09/the-fundumoto-motor-shield.html
+
+https://www.mantech.co.za/Datasheets/Products/EX029.pdf
+
+http://www.devredunyasi.com/market/home/606-fundumoto-shield-l298p.html
