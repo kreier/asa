@@ -1,4 +1,4 @@
-int E1 = 10;
+int E1 = 10; // enable pin (PWM) for motor 1
 int M1 = 12;
 int E2 =11;
 int M2 = 13;
@@ -15,7 +15,7 @@ void loop()
   for(value = 0 ; value <= 255; value+=5)
   {
     digitalWrite(M1,HIGH);
-    digitalWrite(M2, HIGH);
+    digitalWrite(M2,HIGH);
     analogWrite(E1, value);
     analogWrite(E2, value);
     delay(30);
@@ -25,7 +25,7 @@ void loop()
   for(value = 0 ; value <= 255; value+=5)
   {
     digitalWrite(M1,LOW);
-    digitalWrite(M2, LOW);
+    digitalWrite(M2,LOW);
     analogWrite(E1, value);
     analogWrite(E2, value);
     delay(30);
