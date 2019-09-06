@@ -1,0 +1,16 @@
+int buzzer = 4;
+
+void setup() 
+{ 
+  pinMode(buzzer, OUTPUT);
+}
+
+void loop() {
+ for (int i=40; i<255; i++)
+ {
+  digitalWrite(buzzer,HIGH); // apply 5V to pin 4
+  delay(100);
+  digitalWrite(buzzer,LOW); // apply 0V to pin 4
+  delay(200);
+ }
+}
