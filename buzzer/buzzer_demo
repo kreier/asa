@@ -13,4 +13,5 @@ void loop() {
   digitalWrite(buzzer,LOW); // apply 0V to pin 4
   delay(200);
  }
+ delay(3000);
 }
