@@ -1,6 +1,8 @@
 # ASA Robotics, IoT and Programming
 This is an ASA After School Activity at the AISVN from fall 2019. It includes Robotics, IoT and Programming.
 
+![Robot](robot.jpg)
+
 ## Hardware
 
 We ordered the following materials at [CỬA HÀNG IC ĐÂY RỒI](https://icdayroi.com/) for all students to have a common ground for further experiments both in software and hardware:
