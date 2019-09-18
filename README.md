@@ -36,3 +36,9 @@ Analog pins: 10 and 11. Well, that's PWM.
 PS2 (wireless) controller is defined for pins 10 to 13 as well. Should be remapped. Digital is sufficient.
 
 As for PWM: Leonardo offers 3, 5, 6, 9, 10, 11 and 13 as PWM pins. A total of 7. For speed control we need only 2.
+
+### New pins:
+
+6, 7, 8, 9 for PS2 remote control
+10, 11 PWM for motor 1 and 2
+12, 13 enable for motor 1 and 2
