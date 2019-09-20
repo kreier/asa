@@ -1,7 +1,7 @@
 # ASA Robotics, IoT and Programming
 This is an ASA After School Activity at the AISVN from fall 2019. It includes Robotics, IoT and Programming.
 
-![Robot](robot.jpg)
+![4wheel](4wheel_plain.jpg)
 
 ## Hardware
 
@@ -42,3 +42,9 @@ As for PWM: Leonardo offers 3, 5, 6, 9, 10, 11 and 13 as PWM pins. A total of 7.
 6, 7, 8, 9 for PS2 remote control
 10, 11 PWM for motor 1 and 2
 12, 13 enable for motor 1 and 2
+
+## Inspiration
+
+This is the old T100 robot that served as inspiratin for the new 4 wheel robot with Bluetooth BLE control and the new motorshield and the PS2 wireless analog controller.
+
+![Robot](robot.jpg)
