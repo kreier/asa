@@ -7,3 +7,7 @@ After successfull import you will be able to open "File > Examples > PS2X_lib > 
 The example uses the pins 10 to 13.
 
 It does work with Arduino Uno R3, but not with Arduino Leonardo since the USB host is not transferring the serial data back.
+
+![Connection](ps2_arduino_test.jpg)
+
+We change the pins because 10 to 13 is used for the motor shield. New assignment:
