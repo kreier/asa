@@ -37,3 +37,7 @@ Example motor 1. If Pin 10 (E1) is at analog zero, the motor is deactivated. If 
 | 13  |     LED     |       ~ too      |    M2    |     |             |                  |          |
 
 Here ~ refers to a PWM [Pulse Wide Modulation](https://en.wikipedia.org/wiki/Pulse-width_modulation) Pin with 480 Hz and 8bit resolution.
+
+### SoftwareSerial and Arduino Leonardo
+
+On my Arduino Uno I could use pin 2 for SoftwareSerial, but since it is interrupt-based I have to use pin 8 for the Leonardo. Finally got it working. 2019-10-21
