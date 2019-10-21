@@ -33,7 +33,24 @@ The motorshield uses the pins 10 and 12 for motor 1 and 11 and 13 for motor 2.
 Digital pins: 12 and 13.
 Analog pins: 10 and 11. Well, that's PWM.
 
-PS2 (wireless) controller is defined for pins 10 to 13 as well. Should be remapped. Digital is sufficient.
+The original PS2 (wireless) controller used the same pins and have to be redifined to avoid collision. Here is the new pin assignment.
+
+| pin | general |      used for     | pin | general | used for |
+|:---:|:-------:|:-----------------:|:---:|---------|:--------:|
+| 0   |    RX   |    Bluetooth RX   |  A0 |         |          |
+| 1   |    TX   |    Bluetooth TX   |  A1 |         |          |
+| 2   |         |                   |  A2 |         |          |
+| 3~  |         |                   |  A3 |         |          |
+| 4   |         |                   |  A4 |         |          |
+| 5~  |         |                   |  A5 |         |          |
+| 6~  |         |   PS2 Clock (7)   |     |         |          |
+| 7   |         | PS2 Attention (6) |     |         |          |
+| 8   |         |  PS2 Command (2)  |     |         |          |
+| 9~  |         |    PS2 Data (1)   |     |         |          |
+| 10~ |         |         E1        |     |         |          |
+| 11~ |         |         E2        |     |         |          |
+| 12  |         |         M1        |     |         |          |
+| 13  |   LED   |         M2        |     |         |          |
 
 As for PWM: Leonardo offers 3, 5, 6, 9, 10, 11 and 13 as PWM pins. A total of 7. For speed control we need only 2.
 
