@@ -8,7 +8,7 @@ void setup() {
   pinMode(M2, OUTPUT);
   delay(3000); // wait a 3 seconds  
   // enable
-  analogWrite(E1, 128);// not so fast - down by 20%
+  analogWrite(E1, 128);// not so fast - down by 50%
   analogWrite(E2, 128);
 }
 
