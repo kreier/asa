@@ -16,3 +16,24 @@ int M2 = 13;
 ### Control the motor
 
 Example motor 1. If Pin 10 (E1) is at analog zero, the motor is deactivated. If the value is increased to 255 (maximum with analogWrite(E1, 255);) the motor is going into the direction, determined by pin 12 (M1). Here HIGH means forward, LOW means backward.
+
+### Assigned pins from the motorshield
+
+| pin | general UNO | general Leonardo | used for | pin | general UNO | general Leonardo | used for |
+|:---:|:-----------:|:----------------:|:--------:|:---:|:-----------:|------------------|:--------:|
+| 0   |      RX     |        RX        |          |  A0 |             |                  |          |
+| 1   |      TX     |        TX        |          |  A1 |             |                  |          |
+| 2   |             |        SDA       |          |  A2 |             |                  |          |
+| 3~  |             |        SCL       |          |  A3 |             |                  |          |
+| 4   |             |        A6        |          |  A4 |     SDA     |                  |          |
+| 5~  |             |                  |          |  A5 |     SCL     |                  |          |
+| 6~  |             |        A7        |          |     |             |                  |          |
+| 7   |             |                  |          |     |             |                  |          |
+| 8   |             |        A8        |          |     |             |                  |          |
+| 9~  |             |        A9        |          |     |             |                  |          |
+| 10~ |             |        A10       |    E1    |     |             |                  |          |
+| 11~ |             |                  |    E2    |     |             |                  |          |
+| 12  |             |        A11       |    M1    |     |             |                  |          |
+| 13  |     LED     |       ~ too      |    M2    |     |             |                  |          |
+
+Here ~ refers to a PWM [Pulse Wide Modulation](https://en.wikipedia.org/wiki/Pulse-width_modulation) Pin with 480 Hz and 8bit resolution.
