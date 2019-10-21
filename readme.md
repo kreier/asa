@@ -26,6 +26,20 @@ All in all some 550.000₫ are already spend on these simple materials. Further 
 
 * Assemble the robot
 * Connect the motors to M1 and M4 on the L293D shield
+* Connect the bluetooth module pin TXD to pin 8 of the motorshield
+* Upload [bluetooth-remote-motor-1.ino](./bluetooth-remote-motor-1.ino) to your Arduino Leonardo
+* Install [Arduino Bluetooth Controller](https://play.google.com/store/apps/details?id=com.giumig.apps.bluetoothserialmonitor&hl=en) on your Android smartphone
+* Connect to the bluetooth module
+* Configure the controller to send:
+  - "U" for up/forward
+  - "D" for down/backward
+  - "L" for left turn
+  - "R" for right turn
+  - "0" for stop
+  - "T" for turbo
+  - "M" for medium
+  - "S" for slow
+ * Have fun!
 
 ## Pin assignment
 
