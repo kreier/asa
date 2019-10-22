@@ -29,6 +29,8 @@ All in all some 550.000₫ are already spend on these simple materials. Further 
 * Connect the bluetooth module pin TXD to pin 8 of the motorshield
 * Upload [bluetooth-remote-motor-1.ino](./bluetooth-remote-motor-1.ino) to your Arduino Leonardo
 * Install [Arduino Bluetooth Controller](https://play.google.com/store/apps/details?id=com.giumig.apps.bluetoothserialmonitor&hl=en) on your Android smartphone
+* Android [BLE joystick](https://play.google.com/store/apps/details?id=iyok.com.blejoystick&hl=en_US) is fixed programmed to send 'A' to 'H' for the keys - adjust the code of your Arduino program.
+* Install [BitBlue](https://apps.apple.com/us/app/bitblue/id1403675953) for your iPhone. (ZOIT Sung_Han Lee Bitbus Inc.)
 * Connect to the bluetooth module
 * Configure the controller to send:
   - "U" for up/forward
