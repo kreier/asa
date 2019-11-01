@@ -27,10 +27,20 @@ All in all some 550.000₫ are already spend on these simple materials. Further 
 * Assemble the robot
 * Connect the motors to M1 and M4 on the L293D shield
 * Connect the bluetooth module pin TXD to pin 8 of the motorshield
+
+#### Software iOS
+* Upload [bluetooth-robot_iOS.ino](./bluetooth-robot_iOS.ino) to your Arduino Leonardo
+* Install [BitBlue](https://apps.apple.com/us/app/bitblue/id1403675953) from the Appstore. (ZOIT Sung_Han Lee Bitbus Inc.)
+* Connect to "Turboshaft" and start driving!
+
+#### Software Android
+* Upload [bluetooth-robot_Android.ino](./bluetooth-robot_Android.ino) to your Arduino Leonardo
+* Install [BLE joystick](https://play.google.com/store/apps/details?id=iyok.com.blejoystick&hl=en_US) on your phone/tablet.
+* Connect to "Caterpillar" and start driving!
+
+#### Software general
 * Upload [bluetooth-remote-motor-1.ino](./bluetooth-remote-motor-1.ino) to your Arduino Leonardo
 * Install [Arduino Bluetooth Controller](https://play.google.com/store/apps/details?id=com.giumig.apps.bluetoothserialmonitor&hl=en) on your Android smartphone
-* Android [BLE joystick](https://play.google.com/store/apps/details?id=iyok.com.blejoystick&hl=en_US) is fixed programmed to send 'A' to 'H' for the keys - adjust the code of your Arduino program.
-* Install [BitBlue](https://apps.apple.com/us/app/bitblue/id1403675953) for your iPhone. (ZOIT Sung_Han Lee Bitbus Inc.)
 * Connect to the bluetooth module
 * Configure the controller to send:
   - "U" for up/forward
