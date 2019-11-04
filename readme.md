@@ -53,7 +53,34 @@ All in all some 550.000₫ are already spend on these simple materials. Further 
   - "S" for slow
  * Have fun!
 
-## Pin assignment
+## Pin assignment bluetooth
+
+The motorshield uses the pins 10 and 12 for motor 1 and 11 and 13 for motor 2.
+Digital pins: 12 and 13.
+Analog pins: 10 and 11. Well, that's PWM.
+
+The original PS2 (wireless) controller used the same pins and have to be redifined to avoid collision. Here is the new pin assignment.
+
+| pin | general |       used for     | pin | general | used for |
+|:---:|:-------:|:------------------:|:---:|---------|:--------:|
+| 0   |    RX   |                    |  A0 |         |          |
+| 1   |    TX   |                    |  A1 |         |          |
+| 2   |         | ultrasonic trigger |  A2 |         |          |
+| 3~  |         |  ultrasonic echo   |  A3 |         |          |
+| 4   |         |        buzzer      |  A4 |         |          |
+| 5~  |         |                    |  A5 |         |          |
+| 6~  |         |                    |     |         |          |
+| 7   |         |                    |     |         |          |
+| 8   |         | bluetooth receive  |     |         |          |
+| 9~  |         |       servo        |     |         |          |
+| 10~ |         |         E1         |     |         |          |
+| 11~ |         |         E2         |     |         |          |
+| 12  |         |         M1         |     |         |          |
+| 13  |   LED   |         M2         |     |         |          |
+
+As for PWM: Leonardo offers 3, 5, 6, 9, 10, 11 and 13 as PWM pins. A total of 7. For speed control we need only 2.
+
+## Pin assignment PS2 controller
 
 The motorshield uses the pins 10 and 12 for motor 1 and 11 and 13 for motor 2.
 Digital pins: 12 and 13.
