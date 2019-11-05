@@ -1,7 +1,7 @@
 # ASA Robotics, IoT and Programming
 This is an ASA After School Activity at the AISVN from fall 2019. It includes Robotics, IoT and Programming.
 
-![4wheel](4wheel_plain.JPG)
+![4wheel](documents/20191105.jpg)
 
 ## Hardware
 
@@ -59,8 +59,6 @@ The motorshield uses the pins 10 and 12 for motor 1 and 11 and 13 for motor 2.
 Digital pins: 12 and 13.
 Analog pins: 10 and 11. Well, that's PWM.
 
-The original PS2 (wireless) controller used the same pins and have to be redifined to avoid collision. Here is the new pin assignment.
-
 | pin | general |       used for     | pin | general | used for |
 |:---:|:-------:|:------------------:|:---:|---------|:--------:|
 | 0   |    RX   |                    |  A0 |         |          |
@@ -79,6 +77,8 @@ The original PS2 (wireless) controller used the same pins and have to be redifin
 | 13  |   LED   |         M2         |     |         |          |
 
 As for PWM: Leonardo offers 3, 5, 6, 9, 10, 11 and 13 as PWM pins. A total of 7. For speed control we need only 2.
+
+![4wheel](4wheel_plain.JPG)
 
 ## Pin assignment PS2 controller
 
