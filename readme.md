@@ -115,6 +115,6 @@ As for PWM: Leonardo offers 3, 5, 6, 9, 10, 11 and 13 as PWM pins. A total of 7.
 
 ## Inspiration
 
-This is the old T100 robot that served as inspiratin for the new 4 wheel robot with Bluetooth BLE control and the new motorshield and the PS2 wireless analog controller.
+This is the old [T100](https://github.com/kreier/T100) robot car that served as inspiratin for the new 4 wheel robot with Bluetooth BLE control and the new motorshield and the PS2 wireless analog controller.
 
 ![Robot](robot.jpg)
