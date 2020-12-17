@@ -1,4 +1,8 @@
 # ASA Robotics, IoT and Programming
+
+[![GitHub release](https://img.shields.io/github/release/kreier/asa.svg)](https://GitHub.com/kreier/asa/releases/)
+[![MIT license](https://img.shields.io/github/license/kreier/asa)](https://kreier.mit-license.org/)
+
 This is an ASA After School Activity at the AISVN from fall 2019. It includes Robotics, IoT and Programming.
 
 ![4wheel](documents/20191105.jpg)
