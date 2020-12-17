@@ -118,3 +118,19 @@ As for PWM: Leonardo offers 3, 5, 6, 9, 10, 11 and 13 as PWM pins. A total of 7.
 This is the old [T100](https://github.com/kreier/T100) robot car that served as inspiratin for the new 4 wheel robot with Bluetooth BLE control and the new motorshield and the PS2 wireless analog controller.
 
 ![Robot](robot.jpg)
+
+## Schedule 2019
+
+Im September 2019 we started our ten sessions of ASA with 10 students. By the end 6 of the project robots were driving and could be controlled remotely. Here the schedule:
+
+- 2019/08/27 Introduction to Arduino IDE, first Lenoardo given to students
+- 2019/09/03
+- 2019/09/10
+- 2019/09/17
+- 2019/09/24
+- 2019/10/01
+- 2019/10/08
+- 2019/10/15
+- 2019/10/22
+- 2019/10/29
+- 2019/11/05
