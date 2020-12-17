@@ -123,14 +123,16 @@ This is the old [T100](https://github.com/kreier/T100) robot car that served as 
 
 Im September 2019 we started our ten sessions of ASA with 10 students. By the end 6 of the project robots were driving and could be controlled remotely. Here the schedule:
 
-- 2019/08/27 Introduction to Arduino IDE, first Lenoardo given to students
-- 2019/09/03
-- 2019/09/10
-- 2019/09/17
-- 2019/09/24
-- 2019/10/01
-- 2019/10/08
-- 2019/10/15
-- 2019/10/22
-- 2019/10/29
-- 2019/11/05
+- 2019/08/26 Introduction to Arduino IDE, first Lenoardo given to students
+- 2019/09/02 More materials arrive
+- 2019/09/09 Several motors are soldered
+- 2019/09/16 First robot car drives forward and backward
+- 2019/09/23 More students learn soldering and make progress
+- 2019/09/30 We get a ESP32 cam to monitor the area in front of the robot car
+- 2019/10/07 Upgrade to ultrasonic distance sensor
+- 2019/10/14 Coding to connect a PS2 wireless controller to the Leonardo
+- 2019/10/21 Two finished robots challenge one another
+- 2019/10/28 Helping peers finish the last robots
+
+The prerelease of the software v0.1 was published on November 14. On November 11th started [ASA Session 2](../asa2) with 4 students.
+
